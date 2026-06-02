@@ -1,40 +1,55 @@
-# 🏢 Sistem Analizi ve Tasarımı - Proje İlerleme Raporu
-
-Bu depo, **Sistem Analizi ve Tasarımı** dersi kapsamında geliştirilen **Apartman ve Site Yönetim Otomasyonu** projesinin haftalık gelişim sürecini takip etmek amacıyla oluşturulmuştur.
-
-* **Ders:** Sistem Analizi ve Tasarımı
-* **Proje:** Apartman ve Site Yönetim Otomasyonu
-* **Geliştirici:** Safiye
-
+---
+theme: jekyll-theme-cayman
 ---
 
-## 📅 Haftalık Güncellemeler ve İlerleme Raporları
+<!-- HAFTA 1-3 KUTUSU -->
+<div style="background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <div style="flex-grow: 1;">
+    <span style="background: #e8f0fe; color: #1a73e8; padding: 5px 10px; border-radius: 20px; font-size: 13px; font-weight: bold;">Hafta 1-3</span>
+    <h3 style="margin: 10px 0 5px 0; color: #202124;">Proje Başlangıcı, Kapsam ve Fikir Analizi</h3>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #5f6368; font-size: 14px;">
+      <li>Apartman ve Site Yönetim Sistemi fikri belirlendi ve genel kapsam analiz edildi.</li>
+      <li>Modüller planlanarak veritabanı teknolojileri araştırıldı.</li>
+    </ul>
+  </div>
+  <div style="color: #1a73e8; font-size: 20px; font-weight: bold; margin-left: 15px;">&gt;</div>
+</div>
 
-### Hafta 1-3: Proje Başlangıcı, Kapsam ve Fikir Analizi
-* Proje fikri olarak "Apartman ve Site Yönetim Sistemi" belirlendi ve sistemin genel kapsamı analiz edildi.
-* Yönetici ve sakin girişi modülleri planlanarak ihtiyaç duyulacak veri tabanı teknolojileri araştırıldı.
+<!-- HAFTA 4-5 KUTUSU -->
+<div style="background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <div style="flex-grow: 1;">
+    <span style="background: #e8f0fe; color: #1a73e8; padding: 5px 10px; border-radius: 20px; font-size: 13px; font-weight: bold;">Hafta 4-5</span>
+    <h3 style="margin: 10px 0 5px 0; color: #202124;">Gereksinim Analizi ve Metodolojiler</h3>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #5f6368; font-size: 14px;">
+      <li>Projede Şelale ve V Modeli yazılım metodolojilerinin kullanılmasına karar verildi.</li>
+      <li>Gereksinim analizi dökümanı detaylıca hazırlandı.</li>
+    </ul>
+  </div>
+  <div style="color: #1a73e8; font-size: 20px; font-weight: bold; margin-left: 15px;">&gt;</div>
+</div>
 
-### Hafta 4-5: Gereksinim Analizi ve Metodolojiler
-* Projede yazılım geliştirme metodolojilerinin kullanılmasına karar verildi.
-* Yönetici ve sakinlerin yapabileceği işlemler listelenerek gereksinim analizi dökümanı hazırlandı.
+<!-- HAFTA 6-8 KUTUSU -->
+<div style="background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <div style="flex-grow: 1;">
+    <span style="background: #e8f0fe; color: #1a73e8; padding: 5px 10px; border-radius: 20px; font-size: 13px; font-weight: bold;">Hafta 6-8</span>
+    <h3 style="margin: 10px 0 5px 0; color: #202124;">Use Case (Kullanım Senaryoları) Tasarımı</h3>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #5f6368; font-size: 14px;">
+      <li>Aktörler (Yönetici ve Sakin) belirlendi.</li>
+      <li>Use Case diyagramları çizilerek kullanıcı etkileşimleri modellendi.</li>
+    </ul>
+  </div>
+  <div style="color: #1a73e8; font-size: 20px; font-weight: bold; margin-left: 15px;">&gt;</div>
+</div>
 
-### Hafta 6-8: Use Case (Kullanım Senaryoları) Tasarımı
-* Aktörler (Yönetici ve Sakin) belirlendi.
-* Sistemin Use Case (Kullanım Senaryosu) diyagramları çizilerek kullanıcı etkileşimleri modellendi.
-
-### Hafta 9-11: ER Diyagramı ve Veritabanı Tasarımı
-* Veritabanı mimarisi tasarlandı ve `SiteYönetimOtamasyonu` veritabanı oluşturuldu.
-* SQL Server üzerinde şu tablolar ve aralarındaki ilişkiler (ER Diyagramı) kuruldu:
-  * `dbo.Tbl_Yonetici` (KullaniciAd, Sifre, Telefon)
-  * `dbo.Tbl_Sakinler` (Ad, Sifre)
-  * `dbo.Tbl_Daireler`, `dbo.Tbl_Giderler`, `dbo.Tbl_Talepler`, `dbo.Tbl_Duyurular`
-
-### Hafta 12-14: Arayüz Tasarımı, Araçlar ve Kodlama
-* C# Windows Forms App kullanılarak arayüz lojistiği ve form tasarımları oluşturuldu.
-* Giriş paneli (`Form1`), Yönetici Ana Formu (`FrmYöneticiAnaForm`) ve Sakin İşlemleri (`FrmSakinIslemleri`) pencereleri tasarlandı.
-* Butonlar arası nesne yönelimli form geçiş kodları tamamlandı.
-
-### Hafta 15-16: Canlı Entegrasyon, Veritabanı Bağlantısı ve Proje Teslimi
-* C# arayüzü ile MS SQL Server arasında canlı bağlantı kuruldu.
-* Giriş butonuna dinamik SQL sorguları eklenerek veritabanı kontrolü aktifleştirildi.
-* Proje derlenerek (`.exe`) masaüstü uygulaması haline getirildi ve sunuma hazır hale getirildi.
+<!-- HAFTA 9-11 KUTUSU -->
+<div style="background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <div style="flex-grow: 1;">
+    <span style="background: #e8f0fe; color: #1a73e8; padding: 5px 10px; border-radius: 20px; font-size: 13px; font-weight: bold;">Hafta 9-11</span>
+    <h3 style="margin: 10px 0 5px 0; color: #202124;">ER Diyagramı ve Veritabanı Tasarımı</h3>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #5f6368; font-size: 14px;">
+      <li>SQL Server üzerinde veritabanı mimarisi ve ER Diyagramı ilişkileri kuruldu.</li>
+      <li>Tbl_Yonetici, Tbl_Sakinler, Tbl_Daireler ve Tbl_Giderler tabloları oluşturuldu.</li>
+    </ul>
+  </div>
+  <div style="color: #1a73e8; font-size: 20px; font-weight: bold; margin-left: 15px;">&gt;</div>
+</div>
